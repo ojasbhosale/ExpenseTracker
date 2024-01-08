@@ -1,11 +1,10 @@
 {
-  "browser":{
+  "browser": {
     "child_process": false,
-      "fs": false,
-      "path": false,
-      "os": false
-    
-    },
+    "fs": false,
+    "path": false,
+    "os": false
+  },
   "name": "expense-tracker-app",
   "version": "1.0.0",
   "description": "Backend for expense tracker",
@@ -14,7 +13,8 @@
     "start": "node server",
     "server": "nodemon server",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "react-scripts build"
   },
   "author": "Ojas Bhosale",
   "license": "MIT",
